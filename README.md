@@ -1,6 +1,6 @@
 # Discapp
 
-This is a the [Discapp](https://github.com/discappjs/discapp) official template generated with [create-discapp](https://github.com/discappjs/create-discapp).
+This is the [Discapp](https://github.com/discappjs/discapp) official template generated with [create-discapp](https://github.com/discappjs/create-discapp).
 
 ## Scripts
 
