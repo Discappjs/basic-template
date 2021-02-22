@@ -137,6 +137,11 @@ create-require@^1.1.0:
   resolved "https://registry.yarnpkg.com/create-require/-/create-require-1.1.1.tgz#c1d7e8f1e5f6cfc9ff65f9cd352d37348756c333"
   integrity sha512-dcKFX3jn0MpIaXjisoRvexIJVEKzaq7z2rZKxf+MSr9TkdmHmsU4m2lcLojrj/FHl8mk5VxMmYA+ftRkP/3oKQ==
 
+decamelize@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/decamelize/-/decamelize-5.0.0.tgz#88358157b010ef133febfd27c18994bd80c6215b"
+  integrity sha512-U75DcT5hrio3KNtvdULAWnLiAPbFUC4191ldxMmj4FA/mRuBnmDwU0boNfPyFRhnan+Jm+haLeSn3P0afcBn4w==
+
 delayed-stream@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
@@ -147,19 +152,20 @@ diff@^4.0.1:
   resolved "https://registry.yarnpkg.com/diff/-/diff-4.0.2.tgz#60f3aecb89d5fae520c11aa19efc2bb982aade7d"
   integrity sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==
 
-discapp-dev@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/discapp-dev/-/discapp-dev-0.0.2.tgz#e35a7a526d08a6c95be43bb474ba93205b770ff4"
-  integrity sha512-3+RzSKkxdJGue7MEDNx+0Iqb88j1Ndjih0pNkxWhEVT1FQRj8Ei6TeAeOIOm+OSYgr0rwsTM8bGHQVPheMOKqA==
+discapp-dev@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/discapp-dev/-/discapp-dev-0.0.3.tgz#29252848b9a6b4faf3ba2b29efaec0e2c2680379"
+  integrity sha512-KUTJGFw5QiI6c6SF0nZiwDX1ekBxr7zCEUa201bb8mfQ3ibDND8j5x1W+Ou27aOFt7ktRYOQwLoka9c26VIGew==
   dependencies:
     "@types/signale" "^1.4.1"
     chokidar "^3.5.1"
 
-discapp@^0.0.1-0:
-  version "0.0.1-0"
-  resolved "https://registry.yarnpkg.com/discapp/-/discapp-0.0.1-0.tgz#6d72103420a47540d832beccc581fb951842bfde"
-  integrity sha512-vwFaFu7T2e8vV/pRkqQhG2UYCegzPXOFPm9vJdOV5gkpL/zetWmVHq2LlETSIst56cEmiOaZsbPx4gPeYdZHJw==
+discapp@^0.0.1-1:
+  version "0.0.1-1"
+  resolved "https://registry.yarnpkg.com/discapp/-/discapp-0.0.1-1.tgz#9db8a51387a9a574035fb2fa12a5b89b625e3d14"
+  integrity sha512-njy8u3DdGquLd1hGa++Dh5r7KBPFpiKM5sRoYaDkqNZWVRgunc6Q/77vwysRSF4QMOGGw071r93cmL+dZWKHCQ==
   dependencies:
+    decamelize "^5.0.0"
     discord.js "^12.5.1"
     reflect-metadata "^0.1.13"
     signale "^1.4.0"

@@ -16,8 +16,8 @@
     "typescript": "^4.1.3"
   },
   "dependencies": {
-    "discapp": "^0.0.1-0",
-    "discapp-dev": "^0.0.2",
+    "discapp": "^0.0.1-1",
+    "discapp-dev": "^0.0.3",
     "discord.js": "^12.5.1",
     "dotenv": "^8.2.0",
     "reflect-metadata": "^0.1.13"
